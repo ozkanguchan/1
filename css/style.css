@@ -1,0 +1,116 @@
+body {
+    font-family: Bahnschrift, sans-serif;
+    background: #6805E6;
+    color: white;
+}
+
+h1, h2, h3 {
+    font-family: 'Zilla Slab', serif;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.802rem;
+}
+
+h2 {
+    font-size: 1.602rem;
+}
+
+a {
+    color: white;
+}
+
+a.text {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.text:hover {
+    text-decoration: underline;
+
+}
+
+p {
+
+}
+
+nav {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1.6rem;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    border: 3px solid #4f00bf;
+    padding: 3px;
+    margin: 0;
+    background: #4f00bf;
+}
+
+nav a:hover {
+    border: 3px solid white;
+    color: #4f00bf;
+    background: white;
+}
+
+blockquote {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 100px;
+}
+
+ul.contact {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 4rem;
+}
+
+ul.contact li {
+    margin: 0.7rem;
+}
+
+ul.contact a {
+    text-decoration: none;
+    border: 3px solid #4f00bf;
+    padding: 3px;
+    background: #4f00bf;
+}
+
+ul.contact a:hover {
+    border: 3px solid white;
+    color: #4f00bf;
+    background: white;
+}
+
+p.width {
+    max-width: 800px;
+    padding: 0.625rem;
+}
+
+a img {
+    -moz-box-shadow: 0 0 20px #000000;
+    -webkit-box-shadow: 0 0 20px #000000;
+    box-shadow: 0 0 20px #000000;
+}
+a img:hover {
+    transition: ease;
+    transform: scale(1.1);
+}
+
+p {
+
+}
+
+.margin-left {
+    margin-left: 10px;
+}
